@@ -117,7 +117,7 @@ public class Cars {
 	}
 	
 	private void initLocation() {
-		location = new Location( "/dev/tty.usbserial" );
+		location = new Location( "/dev/rfcomm0" );
 	}
 	
 	private void initPlayback() {

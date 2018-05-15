@@ -13,7 +13,7 @@ public class EngineControlUnit implements SerialPortEventListener {
 	private static final char 		COMMAND_RESPONSE = '>';
 	private static final double		KPH_TO_MPH = 0.6214;
 	private static final int		SEND_DELAY = 200;
-	private static final String		DEFAULT_PORT = "/dev/tty.CANOBDII-DevB";	
+	private static final String		DEFAULT_PORT = "/dev/rfcomm0";	
 	private static final String 	AT_ECHO_OFF = "ate0";
 	private static final String		AT_SUPPORTED_PIDS = "0100";
 	private static final String 	COMMAND_REQUEST = "\r";
