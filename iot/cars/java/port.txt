@@ -1,1 +1,1 @@
-/dev/tty.CANOBDII-DevB
+/dev/rfcomm0
